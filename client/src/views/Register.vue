@@ -53,6 +53,7 @@
               <option class="text-gray-700">CHF</option>
               <option class="text-gray-700">EUR</option>
               <option class="text-gray-700">USD</option>
+              <option class="text-gray-700">NOK</option>
             </select>
             <i class="fas fa-dollar-sign text-xl text-lunchPink-600 absolute -mt-8 ml-1"></i>
             <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-lunchPink-600">

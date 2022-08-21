@@ -14,7 +14,7 @@ class UserController {
       name: 'required|alpha_numeric|min:3|max:14|unique:users,name',
       email: 'email|unique:users,email',
       password: 'required|min:4',
-      currency: 'required|in:CHF,EUR,USD'
+      currency: 'required|in:CHF,EUR,USD,NOK'
     }
 
     const messages = {
@@ -100,7 +100,7 @@ class UserController {
     const rules = {
       defaultValue: 'required|number|range:0.9999,10000.0009',
       defaultBudget: 'required|boolean',
-      currency: 'required|in:CHF,EUR,USD'
+      currency: 'required|in:CHF,EUR,USD,NOK'
     }
 
     const messages = {
