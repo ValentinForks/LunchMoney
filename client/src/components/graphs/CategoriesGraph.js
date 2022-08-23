@@ -35,10 +35,10 @@ export default {
             }],
             labels: [
                 'Food',
-                'Fast Food',
+                'Apartment',
                 'Restaurant',
-                'Soft Drink',
-                'Alcohol',
+                'Sport',
+                'Parties',
                 'Shopping',
                 'Travel',
                 'Other'

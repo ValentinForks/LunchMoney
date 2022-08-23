@@ -85,7 +85,7 @@ class StatisticController {
     }
 
     getCategoriesData(queryJSON, expensesTotal) {
-        const categories = ['Food', 'Fast Food', 'Restaurant', 'Soft Drink', 'Alcohol', 'Shopping', 'Travel', 'Other']
+        const categories = ['Food', 'Apartment', 'Restaurant', 'Sport', 'Parties', 'Shopping', 'Travel', 'Other']
 
         let arrayNumberOfExpensesByCategories = []
 

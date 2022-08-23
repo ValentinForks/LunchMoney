@@ -40,10 +40,10 @@
             >
               <option hidden disabled>TYPE</option>
               <option class="text-gray-700">Food</option>
-              <option class="text-gray-700">Fast Food</option>
+              <option class="text-gray-700">Apartment</option>
               <option class="text-gray-700">Restaurant</option>
-              <option class="text-gray-700">Soft Drink</option>
-              <option class="text-gray-700">Alcohol</option>
+              <option class="text-gray-700">Sport</option>
+              <option class="text-gray-700">Parties</option>
               <option class="text-gray-700">Shopping</option>
               <option class="text-gray-700">Travel</option>
               <option class="text-gray-700">Other</option>
