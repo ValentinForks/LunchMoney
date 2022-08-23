@@ -98,7 +98,7 @@ class UserController {
   async update({ request, response, auth }) {
 
     const rules = {
-      defaultValue: 'required|number|range:0.9999,10000.0009',
+      defaultValue: 'required|number|range:0.9999,100000.0009',
       defaultBudget: 'required|boolean',
       currency: 'required|in:CHF,EUR,USD,NOK'
     }
@@ -107,7 +107,7 @@ class UserController {
       required: "The {{field}} can't be empty",
       boolean: "The checkbox value is not valid.",
       number: "The limit should be a valid number",
-      range: "The limit should be in a range of 1 to 10'000",
+      range: "The limit should be in a range of 1 to 100'000",
       in: 'The {{field}} is not valid.',
     }
 

@@ -10,14 +10,14 @@ class ExpenseController {
     async create({ request, response, auth }) {
 
         const rules = {
-            price: 'required|number|range:0.009,10000.001',
+            price: 'required|number|range:0.009,100000.001',
             type: 'required|in:Food,Apartment,Restaurant,Sport,Parties,Shopping,Travel,Other'
         }
 
         const messages = {
             required: "The {{field}} can't be empty",
             number: "The {{field}} should be a valid number",
-            range: "Valid range: 0.01 to 10'000",
+            range: "Valid range: 0.01 to 100'000",
             in: 'The {{field}} is not valid.',
         }
 
@@ -74,14 +74,14 @@ class ExpenseController {
     async edit({ request, response, auth, params }) {
 
         const rules = {
-            price: 'required|number|range:0.009,10000.001',
+            price: 'required|number|range:0.009,100000.001',
             type: 'required|in:Food,Apartment,Restaurant,Sport,Parties,Shopping,Travel,Other'
         }
 
         const messages = {
             required: "The {{field}} can't be empty",
             number: "The {{field}} should be a valid number",
-            range: "Valid range: 0.01 to 10'000",
+            range: "Valid range: 0.01 to 100'000",
             in: 'The {{field}} is not valid.',
         }
 
